@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+.Sources{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    gap: 30rem;
+}
+.pic1{
+    border-radius: 20px;
+    width: 600px;
+    
+}
+.logo10{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+}
+.log10{
+    background-color: orangered;
+    display: flex;
+    gap: 5rem;
+    margin-top: 0px;
+}
+.name20{
+    color: white;
+    margin-top: 140px;
+    font-size: 30px;
+    font-family: "Helvetica";
+}
+
+.heading {
+    color: black;
+    margin-left: 25px;
+}
+
+.Images p{
+    color: black;
+    margin-left: 30px;
+}
+.description{
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.paragraghh{
+    margin: 10px 250px 10px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Topic{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Graph{
+    width: 400px;
+    height: 400px;
+    margin: 40px 0 20px 50px;
+}

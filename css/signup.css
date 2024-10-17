@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Signup2{
+    width: 390px;
+    margin-left: 7px;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    border: white;
+}
+.Signup2:hover{
+    color: black;
+    background-color: orange;
+}

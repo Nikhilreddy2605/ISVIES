@@ -1,0 +1,31 @@
+.log{
+    background-color: orangered;
+    display: flex;
+    gap: 5rem;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ap{
+    font-family: "Helvetica";
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.barchart{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 7rem;
+}
+.linechart{
+    width: 1000px;
+    height:1000px;
+    margin-left: 230px;
+    margin-top: 130px;
+}

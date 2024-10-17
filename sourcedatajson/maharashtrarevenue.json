@@ -1,0 +1,57 @@
+[
+    {
+        "label":2014,
+        "revenue": 81000,
+        "cost": 73652
+    },
+    {
+        "label":2015,
+        "revenue": 93000,
+        "cost": 79652
+    },
+    {
+        "label":2016,
+        "revenue": 105000,
+        "cost": 92716
+    },
+    {
+        "label":2017,
+        "revenue": 115000,
+        "cost": 97914
+    },
+    {
+        "label":2018,
+        "revenue":92800,
+        "cost": 76613
+    },
+    {
+        "label":2019,
+        "revenue": 101000,
+        "cost": 89070
+    },
+    {
+        "label":2020,
+        "revenue": 114000,
+        "cost": 93313
+    },
+    {
+        "label":2021,
+        "revenue": 119000,
+        "cost": 94213
+    },
+    {
+        "label":2022,
+        "revenue": 113000,
+        "cost": 87440
+    },
+    {
+        "label":2023,
+        "revenue":116000,
+        "cost": 99990
+    },
+    {
+        "label":2024,
+        "revenue": 122000,
+        "cost": 98000
+    }
+]

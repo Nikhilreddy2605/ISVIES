@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Army{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+.image{
+    margin-top: 20px;
+}
+.paragragh{
+    color: black;
+    justify-content: left;
+    text-align: left;
+    margin: 20px 25% 0 30px;
+    position: relative;
+}
+.paragraph2{
+    color:black;
+    justify-content: left;
+    text-align: left;
+    margin: 0 25% 0 30px;
+    position: relative;
+}
+.heading2{
+    color: black;
+    margin: 20px 0px 20px -1200px;
+}
+.paragraph3{
+    color:black;
+    justify-content: left;
+    text-align: left;
+    margin: 0 25% 0 30px;
+    position: relative;
+}
+.heading3{
+    color: black;
+    margin: 20px 0px 20px -1050px;
+}
+.paragraph4{
+    color:black;
+    justify-content: left;
+    text-align: left;
+    margin: 0 25% 10px 30px;
+    position: relative;
+}
+.paragraph5{
+    color:black;
+    justify-content: left;
+    text-align: left;
+    margin: 0 25% 10px 30px;
+    position: relative;
+}
+.paragraph6{
+    color:black;
+    justify-content: left;
+    text-align: left;
+    margin: 0 25% 10px 30px;
+    position: relative;
+}
+.heading4{
+    color: black;
+    margin: 20px 0px 20px -1000px;
+}
+.smallheading1{
+    margin: 10px 0 10px -1150px;
+}
+.smallheading2{
+    margin: 10px 0 10px -1080px;
+}
+.smallheading3{
+    margin: 10px 0 10px -1130px;
+}
+.Ar{
+    color: black;
+    font-family: Roboto;
+}
+@keyframes upSideDown {
+    0% {
+        transform: translateY(0); /* Start from the bottom */
+    }
+    100% {
+        transform: translateY(-2550px); /* Move upward */
+    }
+}
+
+.army {
+    animation-name: upSideDown;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    top: 100%;
+    animation-iteration-count: infinite;
+    animation-delay: -14s;
+    margin-left: 1120px;
+    position: relative;
+    z-index: -17;
+}
+
+.army2 img{
+    width: 300px;
+}
+.army2{
+    position: absolute;
+    width: 300px;
+}
+.logo100{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+    margin-bottom: 100px;
+}
+.log100{
+    background-color: orangered;
+    display: flex;
+    gap: 5rem;
+    margin-top: 0px;
+    height: 180px;
+}
+.name200{
+    color: black;
+    margin-top: 140px;
+    font-size: 30px;
+    font-family: "Helvetica";
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.armyimg img{
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+

@@ -1,0 +1,76 @@
+import React from 'react'
+import logo from './Black And White Modern Marketing Agency Round Stamp Business Logo (2).png'
+import './andhrapradesh.css'
+import { Chart as Chartjs } from 'chart.js/auto'
+import { Bar,Doughnut,Line } from 'react-chartjs-2'
+import revenueData from "../karnatakarevenue.json"
+
+const Karnataka = () => {
+  return (
+    <div>
+        <div className='log'>
+            <img src={logo} className='logo' alt='logo'></img>
+            <p className="name"><strong>INDIAN STATE VISUALIZATION IN EACH SECTOR</strong></p>
+        </div>
+        <h1 className='ap'>Karnataka</h1>
+        <div className='barchart'> 
+            <Bar 
+               data={{
+                labels:["2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+                datasets:[
+                    {
+                        label:"Debts in crores",
+                        data:[170000,108000,236000,225000,375000,467000,330000,425000,620000,650000,680000],
+                        backgroundColor:["orangered"]
+                    }
+                ]
+               }}
+            />
+            <Doughnut 
+                  data={{
+                    labels:["Information and Technology","Agriculture","Manufacturing","Biotechnology","Tourism","Education","Mining and Minerals"],
+                    datasets:[
+                        {
+                            label:"sector in percentage wise",
+                            data:[26,19,14,13,11,9,8],
+                            backgroundColor:[
+                                "#FA7070",
+                                "#FF9800",
+                                "#2C7865",
+                                "#90D26D",
+                                "#E72929",
+                                "#008DDA",
+                                "#898121"
+                            ],
+                        }
+                    ]
+                   }}
+                
+            />
+            
+        </div>
+        <div className='linechart'>
+            <Line data={{
+                labels:revenueData.map((data)=> data.label),
+                datasets:[
+                    {
+                        label:"Revenue",
+                        data:revenueData.map((data)=>data.revenue),
+                        backgroundColor:"red",
+                        borderColor:"red",
+                    },
+                    {
+                        label:"Cost",
+                        data:revenueData.map((data)=>data.cost),
+                        backgroundColor:"blue",
+                        borderColor:"blue",
+                    },
+                ]
+            }} />
+        </div>
+
+        </div>
+  )
+}
+
+export default Karnataka

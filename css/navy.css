@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo2{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+}
+.navypara{
+    background-color: orangered;
+    display: flex;
+    gap: 5rem;
+    margin-top: 0px;
+}
+.nav{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navyphoto{
+    margin-top: 20px;
+}
+.navyheading1{
+    margin-left: 30px;
+}
+.navyheading2{
+    margin-left: 30px;
+}
+.navyheading3{
+    margin-left: 30px;
+}
+.navyheading4{
+    margin-left: 30px;
+}
+.navyheading5{
+    margin-left: 30px;
+}
+.navyheading6{
+    margin-left: 30px;
+}
+.navypara101{
+    color: black;
+    justify-content: left;
+    text-align: left;
+    margin: 10px 25% 20px 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navypara102{
+    color: black;
+    justify-content: left;
+    text-align: left;
+    margin: 20px 25% 20px 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navypara103{
+    color: black;
+    justify-content: left;
+    text-align: left;
+    margin: 20px 25% 20px 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navypara104{
+    color: black;
+    justify-content: left;
+    text-align: left;
+    margin: 20px 25% 20px 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navypara105{
+    color: black;
+    justify-content: left;
+    text-align: left;
+    margin: 20px 25% 20px 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navypara106{
+    color: black;
+    justify-content: left;
+    text-align: left;
+    margin: 20px 25% 20px 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name3{
+    color: black;
+    margin-top: 140px;
+    font-size: 30px;
+    font-family: "Helvetica";
+}
+@keyframes upSideDown {
+    0% {
+        transform: translateY(0); /* Start from the bottom */
+    }
+    100% {
+        transform: translateY(-2650px); /* Move upward */
+    }
+}
+.navy1001{
+    animation-name: upSideDown;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    top: 100%;
+    animation-iteration-count: infinite;
+    animation-delay: -20s;
+    margin-left: 1120px;
+    position: relative;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.indiannavy img{
+    width: 300px;
+    overflow: hidden;
+}
+.indiannavy{
+    position: absolute;
+    width: 300px;
+}
